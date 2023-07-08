@@ -1,0 +1,74 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #03152e;
+    color: white;
+}
+
+main {
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px;
+    background-color: #021021;
+    margin-top: 50px;
+    border-radius: 70px 10px; 
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+.divAltura, .divPeso, .divCalc {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.divAltura {
+    margin-bottom: 10px;
+}
+
+.divPeso {
+    margin-bottom: 15px;
+}
+
+input, button {
+    padding: 10px;
+    font-size: 16px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+
+button {
+    cursor: pointer;
+    background-color: #000075;
+    color: white;
+    border-radius: 20px 2px;
+    width: 50%;
+    margin: 0 auto;
+}
+
+#resultado {
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 500px) {
+    body, input, button {
+        font-size: 15px
+    }
+}
